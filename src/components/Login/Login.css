@@ -1,0 +1,33 @@
+.contenedor-login {
+    min-height: calc(100vh - 76px - 238px);
+}
+
+.caja-login{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: rgb(204, 204, 204);
+}
+
+.info-message {
+    background-color: #e7f3ff;
+    border: 2px solid #2196f3;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.info-message h4 {
+    color: #0d47a1;
+    margin-bottom: 15px;
+}
+
+.info-message p {
+    color: #1976d2;
+    margin: 8px 0;
+}

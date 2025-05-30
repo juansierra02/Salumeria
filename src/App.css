@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(183, 203, 219);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Tema oscuro */
+body.dark-theme {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* Estilos para componentes en tema oscuro */
+body.dark-theme .card,
+body.dark-theme .configuracion-card,
+body.dark-theme .logout-card,
+body.dark-theme .caja-login {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-theme .navbar {
+  background-color: #1a1a1a !important;
+}
+
+body.dark-theme .nav-link {
+  color: #e0e0e0 !important;
+}
+
+body.dark-theme .footer {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+body.dark-theme .btn-primary {
+  background-color: #3a506b;
+  border-color: #3a506b;
+}
+
+body.dark-theme .btn-primary:hover {
+  background-color: #1d3557;
+  border-color: #1d3557;
+}

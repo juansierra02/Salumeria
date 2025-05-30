@@ -1,0 +1,30 @@
+.container-imagen-home{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.container-logo-home {
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    margin: 0px auto;
+}
+
+.logo-home {
+    width: 50%;
+}
+
+@media (min-width: 768px) {
+    .container-logo-home {
+        width: 100%;
+        height: 100vh;
+        margin: 0px auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-home {
+        width: 40%;
+    }
+}
