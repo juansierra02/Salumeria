@@ -14,14 +14,14 @@ const Home = () => {
                     <img src='./logo192.png' className="logo-home" alt='Logo'/>
                 </div>
                 <div className="border">
-                    <img className="img-fluid" src="/imagen/imagen_front.webp" alt="First slide" />
+                    <img className="img-fluid" src="imagen/imagen_front.webp" alt="First slide" />
                 </div>
             </div>
             <div className="container-fluid pt-3">
                 <Row xs={1} md={4} className="g-25 mb-5">
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src="/imagen/bondiola_2.webp" />
+                            <Card.Img variant="top" src="imagen/bondiola_2.webp" />
                             <Card.Body>
                                 <Card.Title>Bondiola Curada</Card.Title>
                                 <Card.Text>
@@ -32,7 +32,7 @@ const Home = () => {
                     </Col>
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src="/imagen/choripollo.webp" />
+                            <Card.Img variant="top" src="imagen/choripollo.webp" />
                             <Card.Body>
                                 <Card.Title>Chorizos de Pollo</Card.Title>
                                 <Card.Text>
@@ -43,7 +43,7 @@ const Home = () => {
                     </Col>
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src="/imagen/chorizocasero.webp" />
+                            <Card.Img variant="top" src="imagen/chorizocasero.webp" />
                             <Card.Body>
                                 <Card.Title>Chorizo de Cerdo</Card.Title>
                                 <Card.Text>
@@ -54,7 +54,7 @@ const Home = () => {
                     </Col>
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src="/imagen/morcilla.webp" />
+                            <Card.Img variant="top" src="imagen/morcilla.webp" />
                             <Card.Body>
                                 <Card.Title>Morcilla</Card.Title>
                                 <Card.Text>
